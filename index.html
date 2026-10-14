@@ -1,20 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aeroporto para Todos | Central de Libras</title><link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aeroporto para Todos</title>
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-<header class="topo"><div class="marca">✈️ Aeroporto para Todos</div><span class="selo">Acessibilidade</span></header>
-<main class="container">
-<section class="hero"><div class="icone">🤟</div><h1>Central de Libras</h1><p>Olá! Como podemos ajudar você hoje?</p><p class="subtitulo">Atendimento acessível para passageiros surdos.</p></section>
-<section class="botoes">
-<button class="card destaque" onclick="abrirAtendimento()"><span class="emoji">🎥</span><span><strong>Falar com intérprete</strong><small>Solicite atendimento em Libras</small></span></button>
-<button class="card" onclick="mostrarVoo()"><span class="emoji">✈️</span><span><strong>Informações do voo</strong><small>Consulte um exemplo de voo</small></span></button>
-<button class="card emergencia" onclick="abrirAjuda()"><span class="emoji">🚨</span><span><strong>Preciso de ajuda</strong><small>Solicite ajuda de um atendente</small></span></button>
-</section>
-<section id="mensagem" class="mensagem escondido" aria-live="polite"></section>
-<section class="info"><h2>Como funciona?</h2><div class="passos"><div><b>1</b><span>Aponte a câmera para o QR Code.</span></div><div><b>2</b><span>Escolha o tipo de atendimento.</span></div><div><b>3</b><span>Receba ajuda de forma acessível.</span></div></div><p class="aviso">Protótipo acadêmico: os pedidos desta versão são demonstrações e ainda não chegam a um atendente real.</p></section>
-<p class="atalho">Área de demonstração: <a href="atendente.html">abrir painel do atendente</a></p>
-</main><footer>Projeto acadêmico — Aeroporto para Todos</footer><<<script type="module" src="script.js"></script>
-</body></html>
+  <header class="topo">
+    <div class="marca">✈️ Aeroporto para Todos</div>
+    <span class="selo">Acessibilidade</span>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="icone">✈️</div>
+      <h1>Viaje com mais autonomia!</h1>
+      <p>Aprenda cada etapa da sua viagem com orientações simples e vídeos em Libras.</p>
+    </section>
+
+    <section class="botoes" aria-label="Opções de orientação">
+      <a class="card destaque" href="guia.html">
+        <span class="emoji">🧭</span>
+        <span>
+          <strong>Guia do aeroporto</strong>
+          <small>Aprenda o passo a passo da viagem</small>
+        </span>
+      </a>
+
+      <a class="card" href="checkin.html">
+        <span class="emoji">🛫</span>
+        <span>
+          <strong>Check-in</strong>
+          <small>Saiba como fazer e obter seu cartão de embarque</small>
+        </span>
+      </a>
+
+      <a class="card" href="bagagens.html">
+        <span class="emoji">🧳</span>
+        <span>
+          <strong>Bagagens</strong>
+          <small>Entenda a bagagem de mão e o despacho</small>
+        </span>
+      </a>
+
+      <a class="card" href="embarque.html">
+        <span class="emoji">🚪</span>
+        <span>
+          <strong>Embarque</strong>
+          <small>Aprenda a localizar o portão e embarcar</small>
+        </span>
+      </a>
+    </section>
+
+    <section class="info">
+      <h2>Você no controle da sua viagem</h2>
+      <p>
+        Consulte as orientações no seu ritmo. Cada etapa terá
+        explicações simples e espaço para um vídeo em Libras.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Projeto acadêmico — Aeroporto para Todos
+  </footer>
+</body>
+</html>
